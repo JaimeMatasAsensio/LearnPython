@@ -1,2 +1,5 @@
 # LearnPython
-Rama para el aprendizaje de Python
+Repositorio para el apredizaje de Python.
+
+Cada rama es un ejercicio o desarrollo.
+
