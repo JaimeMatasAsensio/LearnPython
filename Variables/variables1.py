@@ -94,9 +94,11 @@ va1 = 1j
 print(va1,"Cambio de tipo -> ",type(va1))
 
 #Tipo range
-va1 = range(10) 
+va1 = range(5) 
 print("Recorremos la variable 'va1'")
 print ("tenemos la funcion range(int). Esta funcion podemos ver un rago de int-1 numeros. Hay mas opciones..")
+
+time.sleep(5) #Damos tiempo a leer
 
 for va2 in va1:
     print(va2)
@@ -107,6 +109,8 @@ else:
 print ("Las listas pueden almacenar distintos valores, son ordenadas, modificlables y permiten valores repetidos")
 va1 = ["Ananas","Banana","Platano","Ananas"]
 print("Cambio de tipo -> ",type(va1))
+
+time.sleep(5) #Damos tiempo a leer
 print("Recorremos la variable 'va1'")
 
 for va2 in va1:
@@ -118,6 +122,8 @@ else:
 print ("Las tuplas pueden almacenar distintos valores, son ordenadas, NO modificlables y permiten valores repetidos")
 va1 = ("String1","String2","String3")
 print("Cambio de tipo -> ",type(va1))
+
+time.sleep(5) #Damos tiempo a leer
 print("Recorremos la variable 'va1'")
 
 for va2 in va1:
@@ -130,10 +136,13 @@ print ("Los diccionarios pueden almacenar pares de valores key-value, son ordena
 va1 = {
     "nombre": "Diccionario",
     "numero": 1234,
+    "complex": 1j 
 }
 print ("Usamos algunos de los metodos...")
 print("metodo keys", va1.keys())
 print("metodo items", va1.items())
+
+time.sleep(5) #Damos tiempo a leer
 
 print("Iniciamos el recorrido del diccionario")
 for x in va1.keys():
@@ -143,3 +152,4 @@ else:
 
 
 #Tipo set -> Pendiente
+
